@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 100%;
 }
-
+/* header related css */
 header {
   width: 100%;
   height: 100%;
@@ -45,6 +45,178 @@ header {
   background: #f15b22;
   border: 0;
   color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* main section related css */
+main {
+  background-image: url("../images/person.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  height: 100%;
+  width: 100%;
+  margin: 90px 0;
+  padding-right: 220px;
+  display: flex;
+  justify-content: end;
+  background-position: 160px 0px;
+}
+.main-container {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-title {
+  color: #151414;
+  font-size: 32px;
+  font-weight: 700;
+}
+.main-description {
+  color: #444343;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+.main-list-container li {
+  color: #444343;
+  font-size: 14px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* my skills section related css */
+.my-plans-title {
+  text-align: center;
+  font-size: 34px;
+}
+
+.my-plans-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 160px 100px 160px;
+}
+.skills-container {
+  text-align: center;
+}
+.my-plans-container img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 7px;
+}
+.skill-name {
+  color: #151414;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.skill-description {
+  color: #737272;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* call now related css */
+.call-now {
+  width: 100%;
+  padding: 0 160px;
+  margin-bottom: 130px;
+}
+.banner {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  padding: 50px;
+}
+.callnow-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.callnow-btn {
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  padding: 16px 24px;
+  color: #f15b22;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 18px;
+}
+/* footer related css */
+footer {
+  width: 100%;
+  height: 80vh;
+  background-color: #151414;
+}
+.footer-container {
+  padding: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.left-title {
+  color: #f8f8f8;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.left-description {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 15px;
+  width: 400px;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.social-icons li img {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.right-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.right input {
+  width: 100%;
+  background-color: #151414;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.right button {
+  width: fit-content;
+  padding: 15px 26px;
+  border-radius: 5px;
+  border: 0;
+  color: #f15b22;
   font-size: 17px;
   font-weight: 600;
 }
